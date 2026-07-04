@@ -6,3 +6,4 @@
 - set variables in root
 - use inline-block on inline elements when using padding
 - i need to be careful putting margin-block on heading elements. it can mess up things later in the page. stick putting margin on images to break up sections.
+- use width/height 100% and object fit cover to make grid img's repsonsive.
