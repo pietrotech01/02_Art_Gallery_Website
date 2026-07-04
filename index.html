@@ -11,6 +11,12 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles-main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Pietro | Art gallery website</title>
   </head>
@@ -33,19 +39,22 @@
         class="hero__image--desktop"
       />
       <div class="hero__content">
-        <h1 class="hero__title">Modern Art Gallery</h1>
+        <h1 class="hero__title">Modern <br />Art Gallery</h1>
         <p class="hero__text">
           The arts in the collection of the Modern Art Gallery all started from
           a spark of inspiration. Will these pieces inspire you? Visit us and
           find out.
         </p>
-        <a href="" class="button hero__button"
-          >Our Location<img
-            src="assets/icon-arrow-right.svg"
-            alt="arrow right"
-            class
-            hero__button--icon-right
-        /></a>
+        <div class="hero__button">
+          <a href="" class="button hero__link">Our Location</a>
+          <a href="">
+            <img
+              src="assets/icon-arrow-right.svg"
+              alt="arrow right"
+              class="hero__button--icon-right"
+            />
+          </a>
+        </div>
       </div>
     </section>
     <section class="gallery">
@@ -72,48 +81,48 @@
             our artists. Dive into the details of their creative process.
           </p>
         </div>
-        <div class="gallery__grid">
-          <div class="grid">
-            <img
-              src="assets/mobile/image-grid-2@2x.jpg"
-              alt="bench and art picture"
-              class="item grid__img1--mobile"
-            />
-            <img
-              src="assets/tablet/image-grid-2@2x.jpg"
-              alt="bench and art picture"
-              class="item grid__img1--tablet"
-            />
-            <img
-              src="assets/desktop/image-grid-2@2x.jpg"
-              alt="bench and art picture"
-              class="item grid__img1--desktop"
-            />
+      </div>
+      <div class="gallery__grid">
+        <div class="grid">
+          <img
+            src="assets/mobile/image-grid-2@2x.jpg"
+            alt="bench and art picture"
+            class="item grid__img1--mobile"
+          />
+          <img
+            src="assets/tablet/image-grid-2@2x.jpg"
+            alt="bench and art picture"
+            class="item grid__img1--tablet"
+          />
+          <img
+            src="assets/desktop/image-grid-2@2x.jpg"
+            alt="bench and art picture"
+            class="item grid__img1--desktop"
+          />
 
-            <img
-              src="assets/mobile/image-grid-3@2x.jpg"
-              alt="people looking at art"
-              class="item grid__img2--mobile"
-            />
-            <img
-              src="assets/tablet/image-grid-3@2x.jpg"
-              alt="people looking at art"
-              class="item grid__img2--tablet"
-            />
-            <img
-              src="assets/desktop/image-grid-3@2x.jpg"
-              alt="people looking at art"
-              class="item grid__img2--desktop"
-            />
-            <div class="grid__content">
-              <h2 class="gallery__title gallery__title--white">
-                Come & Be Inspired
-              </h2>
-              <p class="gallery__text gallery__text--white">
-                We’re excited to welcome you to our gallery and see how our
-                collections influence you.
-              </p>
-            </div>
+          <img
+            src="assets/mobile/image-grid-3@2x.jpg"
+            alt="people looking at art"
+            class="item grid__img2--mobile"
+          />
+          <img
+            src="assets/tablet/image-grid-3@2x.jpg"
+            alt="people looking at art"
+            class="item grid__img2--tablet"
+          />
+          <img
+            src="assets/desktop/image-grid-3@2x.jpg"
+            alt="people looking at art"
+            class="item grid__img2--desktop"
+          />
+          <div class="grid__content">
+            <h2 class="gallery__title gallery__title--white">
+              Come & Be Inspired
+            </h2>
+            <p class="gallery__text gallery__text--white">
+              We’re excited to welcome you to our gallery and see how our
+              collections influence you.
+            </p>
           </div>
         </div>
       </div>

@@ -12,3 +12,111 @@ img {
 [class*="desktop"] {
   display: none;
 }
+/********** Fonts **********/
+:root {
+  --font-fam-heading: "Big Shoulders", sans-serif;
+  --font-fam-text: "Outfit", sans-serif;
+}
+
+[class*="title"],
+a {
+  font-family: var(--font-fam-heading);
+  text-transform: uppercase;
+}
+
+[class*="text"] {
+  font-family: var(--font-fam-text);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.hero__title {
+  font-size: 56px;
+  font-weight: 900;
+  margin-block: 32px;
+}
+
+.gallery__title {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+[class*="gallery__image"] {
+  margin-bottom: 24px;
+}
+
+/********** Main CSS **********/
+
+.hero__content {
+  margin-bottom: 100px;
+}
+
+.hero__text {
+  margin-block: 32px;
+}
+
+.hero__content,
+.gallery {
+  width: 90%;
+  margin-inline: auto;
+  /* border: 2px solid blue; */
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+}
+
+.hero__link {
+  background-color: black;
+  padding: 16px 24px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 30%;
+}
+
+.hero__button--icon-right {
+  display: flex;
+  align-self: center;
+  background-color: #d5966c;
+  height: 51px;
+  padding: 16px;
+}
+
+.gallery__flex {
+  margin-bottom: 32px;
+}
+
+.gallery__grid {
+  margin-bottom: 100px;
+}
+
+.item {
+  margin-bottom: 16px;
+}
+
+.grid__content {
+  background-color: black;
+  padding: 40px 24px;
+}
+
+.gallery__title--white,
+.gallery__text--white {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 48px;
+}
+
+.footer__text {
+  margin-block: 40px;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 24px;
+}
