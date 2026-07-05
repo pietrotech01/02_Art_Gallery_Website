@@ -63,7 +63,8 @@ a {
 }
 
 .hero__button {
-  display: flex;
+  display: inline-flex;
+  width: fit-content;
   align-items: center;
 }
 
@@ -333,7 +334,8 @@ footer {
 }
 
 .map__button {
-  display: flex;
+  display: inline-flex;
+  width: fit-content;
   align-items: center;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
@@ -441,4 +443,46 @@ footer {
     max-width: 1400px;
     margin-inline: auto;
   }
+}
+
+/* ========== Hover and Active States ========== */
+
+.hero__button:hover .hero__link {
+  background-color: #d5966c;
+  color: white;
+}
+
+.hero__button:hover .hero__button--icon-right {
+  background-color: black;
+}
+
+.hero__button:active,
+.map__button:active {
+  border: 2px solid white;
+  outline: 2px solid #d5966c;
+}
+
+.hero__button:active .hero__link {
+  background-color: black;
+}
+
+.hero__button:active .hero__button--icon-right {
+  background-color: #d5966c;
+}
+
+.map__button:hover .map__link {
+  background-color: #d5966c;
+  color: white;
+}
+
+.map__button:hover .map__button--icon-left {
+  background-color: black;
+}
+
+.map__button:active .map__link {
+  background-color: black;
+}
+
+.map__button:active .map__button--icon-left {
+  background-color: #d5966c;
 }
