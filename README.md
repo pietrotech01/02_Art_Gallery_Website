@@ -9,3 +9,5 @@
 - use width/height 100% and object fit cover to make grid img's repsonsive.
 - i need to be mindful if SVG icons are to change color then mark them up appropriately. i need to stop being basic and using img tags all the time.
 - use width: fit content to hug container to buttons
+
+![screenshot](image.png)
